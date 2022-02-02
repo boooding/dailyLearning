@@ -27,3 +27,10 @@ let composeES6 = (...args) => value => args.reverse().reduce((previousResult, fu
 
 let myFES6 = composeES6(toUpper, first, reverse)
 console.log(myFES6(['one', 'two', 'three']))
+
+// debug
+
+const trace = _.curry((tag, v) => {
+    console.log(tag, v)
+    return v;
+})
