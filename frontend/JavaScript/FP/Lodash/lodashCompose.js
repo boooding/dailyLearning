@@ -21,7 +21,7 @@ function compose(...args) {
 let myF = compose(toUpper, first, reverse)
 console.log(myF(['one', 'two', 'three']))
 
-// ES6
+// ES
 
 let composeES6 = (...args) => value => args.reverse().reduce((previousResult, func) => func(previousResult), value)
 
