@@ -14,7 +14,7 @@ obj.getName()
 // 输出456
 
 
-// js 随机声称颜色
+// js_ts 随机声称颜色
 const color1 = () => {
     this.r = Math.floor(Math.random()*255);
     this.g = Math.floor(Math.random()*255);
