@@ -1,4 +1,0 @@
-
-const twoSum = (nums, target) => {
-
-}
