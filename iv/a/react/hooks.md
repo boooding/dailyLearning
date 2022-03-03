@@ -19,4 +19,6 @@ class Data extends React.Component {
 }
 ```
 
-2.
+
+## hooks Motivation
+### It’s hard to reuse stateful logic between components
