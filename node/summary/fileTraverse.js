@@ -30,7 +30,6 @@ const fileTraverse = (filePath, operationToFile) => {
                     } else if (stats.isDirectory()) {
                         fileTraverse(fileDir)
                     }
-
                 }
             })
         })
