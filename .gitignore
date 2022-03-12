@@ -1,3 +1,5 @@
 .idea
 .vscode
 a_test
+
+**/node_modules/
