@@ -1,7 +1,5 @@
 # dailyLearning
 
-## learning material
+A simple repository 
 
-- 左耳听风
-
-## learning log
+test
